@@ -1,5 +1,20 @@
 //HEADER SECTION
 
+function Description() {
+    return (
+        <div>
+            <p className="learned">
+            Another sample webpage that was used to implement React in the 
+            development of this site. The entire site was vanilla coded using 
+            React which merges the worlds of HTML and JavaScript. This site was 
+            used to learn and implement function calls that access database style 
+            information to auto populate on-screen elements to alleviate redundant 
+            code and excessive user input.
+            </p>
+        </div>
+    )
+}
+
 function Header() {
     return (
     <div>
@@ -132,6 +147,7 @@ function PlayerCards() {
 function MainPage() {
     return (
     <div className="WholeBody">
+    <Description />
     <Header />
     <HeroSection />
     <MainContent />

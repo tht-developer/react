@@ -19,6 +19,16 @@ html {
     background-position: 120% 110%;
 }
 
+.learned {
+    background-color: rgb(159, 159, 159);
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 1rem;
+    
+}
+
 .PlayerDiv {
     display: flex;
     height: fit-content;
